@@ -1,9 +1,9 @@
-import { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
+import { Head, Html, Main, NextScript } from 'next/document'
 
 const Document = () => {
   return (
-    <Html lang="ja">
+    <Html lang="en">
       <Head />
       <body>
         <Main />

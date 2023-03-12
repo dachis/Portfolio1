@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import tw from 'twin.macro'
 import { Button, Logo } from '../components'
 
@@ -11,6 +12,9 @@ const styles = {
 
 const App = () => (
   <div css={styles.container({ hasBackground: true })}>
+    <Head>
+      <title>_</title>
+    </Head>
     <div tw="flex flex-col justify-center h-full gap-y-5">
       <Button variant="primary">Submit</Button>
       <Button variant="secondary">Cancel</Button>
